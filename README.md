@@ -54,3 +54,10 @@ An example input set is in the upstream repo under `examples/minimal/inputs/`.
 Literature search works with the agent's own web search. A free Semantic Scholar
 key (`SEMANTIC_SCHOLAR_API_KEY`) raises rate limits; Exa, Tavily, Serply and
 Keenable keys are optional extras.
+
+### Using it in regular Claude chats (claude.ai, desktop and mobile apps)
+
+`dist/paper-orchestra-skill.zip` packs all the skills above into one skill.
+Download it and upload it once at claude.ai → Settings → Capabilities → Skills →
+Upload skill. After that it is available in every chat on every device signed in
+to the account.
